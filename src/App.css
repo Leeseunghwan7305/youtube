@@ -122,3 +122,33 @@
 .git img {
   margin-right: 0.5rem;
 }
+@media screen and (max-width: 48rem) {
+  .lists {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    border: 0;
+  }
+  .lists img {
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .nav {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .video iframe {
+    height: 400px;
+  }
+  .video {
+    height: 700px;
+  }
+  .video h2,
+  .video h3 {
+    font-size: 1.5rem;
+  }
+  .video pre {
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+  }
+}
